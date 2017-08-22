@@ -1153,9 +1153,9 @@
 						var counter = x+1,
 							options_list = [],
 							send;
-						data['item_name_' + counter]		= item.get('name');
-						data['item_quantity_' + counter]	= item.quantity();
-						data['item_price_' + counter]		= item.price();
+						data['Товар_' + counter]		= item.get('name');
+						data['Количество_' + counter]	= item.quantity();
+						data['Цена каждого_' + counter]		= item.price();
 
 						// create array of extra options
 						simpleCart.each(item.options(), function (val,x,attr) {
