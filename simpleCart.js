@@ -1138,11 +1138,11 @@
 
 					// build basic form options
 					var data = {
-							  currency	: simpleCart.currency().code
-							, shipping	: simpleCart.shipping()
-							, tax		: simpleCart.tax()
-							, taxRate	: simpleCart.taxRate()
-							, itemCount : simpleCart.find({}).length
+							  //currency	: simpleCart.currency().code
+							//, shipping	: simpleCart.shipping()
+							//, tax		: simpleCart.tax()
+							//, taxRate	: simpleCart.taxRate()
+							//, itemCount : simpleCart.find({}).length
 						},
 						action = opts.url,
 						method = opts.method === "GET" ? "GET" : "POST";
