@@ -82,6 +82,7 @@
 					"SEK": { code: "SEK", symbol: "SEK&nbsp;", name: "Swedish Krona" },
 					"CHF": { code: "CHF", symbol: "CHF&nbsp;", name: "Swiss Franc" },
 					"THB": { code: "THB", symbol: "&#3647;", name: "Thai Baht" },
+					"RUB": { code: "RUB", symbol: "&#8381;", name: "Russian ruble" },
 					"BTC": { code: "BTC", symbol: " BTC", name: "Bitcoin", accuracy: 4, after: true	}
 				},
 
@@ -1170,7 +1171,7 @@
 						});
 
 						// add the options to the description
-						data['item_options_' + counter] = options_list.join(", ");
+						//data['item_options_' + counter] = options_list.join(", ");
 					});
 
 

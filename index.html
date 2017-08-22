@@ -14,6 +14,7 @@ simpleCart({
     checkout: { 
         type: "SendForm" , 
         url: "https://formspree.io/maxim@hoperskov.com" 
+		currency: "RUB",
     } 
 });
 </script>
@@ -26,13 +27,13 @@ simpleCart({
 <div class="simpleCart_shelfItem">
   <h2 class="item_name"> Awesome T-shirt </h2>
 <p>  <input type="text" value="1" class="item_Quantity"><br>
-  <span class="item_price">$35.99</span><br>
+  <span class="item_price">35.99</span><br>
   <a class="item_add" href="javascript:;"> Add to Cart </a></p>
 </div>
 <div class="simpleCart_shelfItem">
   <h2 class="item_name"> Awesome T-shirt2 </h2>
 <p>  <input type="text" value="1" class="item_Quantity"><br>
-  <span class="item_price">$111</span><br>
+  <span class="item_price">111</span><br>
   <a class="item_add" href="javascript:;"> Add to Cart </a></p>
 </div>
 <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
