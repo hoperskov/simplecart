@@ -11,12 +11,12 @@
 <script src="simpleCart.js"></script>
 <script>
 simpleCart({
-    checkout: { 
-        type: "SendForm" , 
+    checkout: {
+        type: "SendForm" ,
         url: "https://formspree.io/maxim@hoperskov.com",
-		method: "post", 
+		method: "post",
 		currency: "RUB"
-    } 
+    }
 });
 </script>
   <!--[if lt IE 9]>
@@ -39,5 +39,6 @@ simpleCart({
 </div>
 <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
 <a href="javascript:;" class="simpleCart_checkout">Checkout</a>
+<a href="javascript:;" class="simpleCart_empty"></a>
 </body>
 </html>
